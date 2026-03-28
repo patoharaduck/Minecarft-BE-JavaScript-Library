@@ -11,7 +11,20 @@ export function addScore(player, scoreBoardName, number) {
     try {
         world.scoreboard.getObjective(scoreBoardName).addScore(player, number);
     } catch (error) {
-        console.error(error)
-    }
+        console.error(error) }
+}
+
+/**
+ * 指定したスコアボードの値を減らす
+ * @arg {import("@minecraft/server").Player|string} player 対象のプレイヤー
+ * @arg {string} scoreBoardName 対象のスコアボード
+ * @arg {number} number 減らす値
+ */
+
+export function removeScore(player, scoreBoardName, number) {
+    try {
+        world.scoreboard.getObjective(scoreBoardName).addScore(player, number);
+    } catch (error) {
+        console.error(error) }
 }
 
