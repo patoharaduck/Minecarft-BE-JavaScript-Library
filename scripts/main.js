@@ -1,1 +1,0 @@
-import "./wolf/game.js";
