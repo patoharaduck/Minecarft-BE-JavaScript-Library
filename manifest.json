@@ -26,11 +26,11 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "2.7.0-beta"
+            "version": "beta"
           },
           {
             "module_name": "@minecraft/server-ui",
-            "version": "2.1.0-beta"
+            "version": "beta"
           },
           {
             "uuid": "6d7089c8-14eb-47f4-b8aa-872fbc286af9",
