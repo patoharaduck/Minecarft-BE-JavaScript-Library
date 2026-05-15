@@ -1,6 +1,5 @@
 import { NamespaceNameError, world } from "@minecraft/server";
 
-
 /**
  * 範囲破壊の関数
  * @param {import("@minecraft/server").Block} block 指定したブロックを一括破壊
